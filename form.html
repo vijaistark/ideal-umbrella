@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <title>EXAM HALL DETAIL INFO</title>
+    </head>
+
+    <form>
+
+        <label> FIRST NAME :</label><br>
+    <input type = "NAME" value="first name"/> <br> 
+    <br> 
+    <br>    
+    <label> PASSWORD :</label><br>
+    <input type = "password"/>    <br>
+    <br>
+
+    <label>Enter ur type :</label>
+    <br>
+
+    <select>
+        <option>type 1</option>
+        <option>type 2</option>
+        <option>type 3</option>
+</select>
+
+<h3>Select Gender</h3>
+<input type = "radio" name = "gender"/><label>Male</label> 
+<input type = "radio" name = "gender"/><label>Female</label>
+<input type = "radio" name = "gender"/><label>Others</label>
+
+<br>
+<br>
+
+<h3>Select age group</h3>
+<input type = "checkbox" name = "age"/><label>18-40</label> 
+<input type = "checkbox" name = "age"/><label>40-50</label>
+<input type = "checkbox" name = "age"/><label>60-100</label>
+
+<br>
+<br>
+
+<h3>Select a date</h3>
+<input type="date" /> <label>enter a date under jan 2024</label>
+<br>
+<label>Select colour :</label>
+<input type="color" value="blue">
+
+<br>
+<label>upload ur resume</label> 
+
+<br>
+<br>
+<br>
+<input type="file"/>
+<br>
+<br>
+
+</form>
+
+<button onclick="completePayment()" style="font-size: medium; font-style: italic;">click to pay</button>
+
+<p id="great">
+    loading
+</p>
+<script>
+    function completePayment(){
+        document.getElementById("great").innerHTML = "payment successfully completed";
+    }
+</script>
+</body>
+</html>

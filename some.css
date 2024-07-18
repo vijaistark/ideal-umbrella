@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+
+}
+
+p.odd{
+    background-color: rgb(238, 255, 0);
+    border-style: solid;
+     border-radius: auto;
+}
+#img1{
+    float: left;
+    margin-right: 15px;
+    margin-left: auto;
+
+}
+
+div.box{
+    font-style: italic;
+}
