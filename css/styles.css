@@ -1,0 +1,22 @@
+body{
+  background-color: blueviolet;
+  background-attachment: scroll;
+}
+
+h2{
+  text-align: center;
+  font-family:'Arial  Bold', sans-serif;
+  border-top-style:outset;
+  border-right-style:solid; 
+  border-left-style: groove; 
+  border-bottom-style: outset;
+}
+
+h4{
+  text-align: left;
+  font-size: x-large;
+  color: rgb(250, 250, 250);
+  border-style: initial;
+  text-align: center;
+}
+
