@@ -1,0 +1,34 @@
+body{
+    background-color: snow;
+}
+table,tr,td,th{
+    border : 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+    font-family: serif,Arial, sans-serif;
+
+}
+table{
+    width: auto;
+    
+
+}
+th{
+    height: 45px;
+}
+td:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+th:hover{
+    background-color: rgb(255, 38, 0);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+visibility: hidden;
+}
+tr:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
